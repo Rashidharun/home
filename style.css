@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.wraper{
+	width:95%;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+}
+.logo{
+float: left;
+width: 30%;
+display:block;
+}
+.logo img{
+	float: left;
+}
+.logo h1{
+	float: right;
+}
+.menu_bar{
+	float: right;
+}
+
+ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+    
+}
+ul li a{
+	text-decoration: none;
+}
+#banner{
+	background-image: url(./images/home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.home{
+	width: 20%;
+	min-height: 50px;
+	float: left;
+	background-color: rgba(0, 0, 0, 50%);
+	margin-top: 100px;
+	margin-bottom: 300px;
+	padding: 10px 10px 10px 10px;
+}
+.home h1{
+	color: white;
+}
+.home p{
+	color: white;
+}
+#service{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.villa{
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+}
+.villa h1{
+	text-align: center;
+	font-weight: 200; 
+	color: silver;
+}
+.villa img{
+	display: block;
+	margin: 0 auto;
+}
+
+.services{
+	display: inline-block;
+	width: 30%;
+	padding: 30px;
+}
+.services h1{
+	text-align: center;
+	font-weight: 200; 
+	color: silver;
+}
+
+.condos{
+	display: inline-block;
+	width: 30%;
+	padding: 5px;
+	
+}
+.condos h1{
+	text-align: center;
+	font-weight: 200; 
+	color: silver;
+}
+button{
+	background-color: #385170;
+	border-radius: 9px;
+	padding: 5px 10px;
+	color: white;
+}
+
+#footer{
+	margin-top: 75px;
+	text-align: center;
+}
+#footer p{
+	color: blue;
+}
+.fa{
+	font-size:20px; 
+}
